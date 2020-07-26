@@ -1455,8 +1455,21 @@ article:last-child {
 }
 
 #main>section.one {
-    background-color: #81918E;
-    background-image: url("../../images/background.jpg");
+    /* background-color: #81918E;
+    background-image: url("../../images/background.jpg"); */
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    object-fit: cover;
+}
+
+#myVideo {
+    min-width: 100% !important;
+    min-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0;
+    padding: 0;
 }
 
 #main>section.two {
@@ -1512,7 +1525,7 @@ article:last-child {
 
 /* Narrow */
 
-@media screen and (min-width: 961px) and (max-width: 1320px) {
+@media screen and (min-width: 721px) and (max-width: 1320px) {
     /* Basic */
     body,
     input,
@@ -1569,7 +1582,7 @@ article:last-child {
     display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 720px) {
     /* Basic */
     html,
     body {
