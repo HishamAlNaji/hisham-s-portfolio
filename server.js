@@ -10,6 +10,7 @@ server.listen(PORT, () => {
     console.log('i am listening to the port', PORT)
 });
 
+server.use(express.static('./public'));
 
 // server.get("/test", (request, response) => {
 //     response.send("You are awesome!");
